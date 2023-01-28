@@ -24,9 +24,22 @@ const ToastPage = () => {
                         handleCreateToastArray("success", "Success Title");
                     }}
                 >
-                    success
+                    Success
                 </button>
-              
+                <button
+                    onClick={() => {
+                        handleCreateToastArray("error", "Error Title");
+                    }}
+                >
+                    Error
+                </button>
+                <button
+                    onClick={() => {
+                        handleCreateToastArray("info", "Info Title");
+                    }}
+                >
+                    Info
+                </button>
             </div>
         </div>
     );
