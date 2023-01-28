@@ -5,7 +5,11 @@ React Toast Notification Component
 
 ## Youtube Video
 
-[![ReactToastNotification](https://img.youtube.com/vi/kSqtMXrnBvo/0.jpg)](https://www.youtube.com/watch?v=kSqtMXrnBvo)
+<a href='https://www.youtube.com/watch?v=kSqtMXrnBvo'>
+<p align="center">
+ <img src="https://img.youtube.com/vi/kSqtMXrnBvo/0.jpg">
+</p>
+ </a>
 
 
 ## Run Locally
