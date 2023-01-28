@@ -1,5 +1,4 @@
 import { useEffect, useState, useRef } from "react";
-
 import CloseIcon from "./Icons/CloseIcon";
 import SuccessIcon from "./Icons/SuccessIcon";
 import ErrorIcon from "./Icons/ErrorIcon";
@@ -9,7 +8,6 @@ import './Toast.scss';
 
 function ToastItem(props) {
     const { id, type, title, deleteToast, } = props;
-
     const [isMouseHover, setIsMouseHover] = useState(false)
     const [closeAnimation, setCloseAnimation] = useState(false);
     const timer = useRef(null)
